@@ -1,0 +1,119 @@
+body {
+  background-image: url('images/background.jpg');
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+    background-color: rgba(255, 255, 255, 0.92);
+    color: rgba(28, 53, 64, 1);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+li {
+    display: inline;
+    padding: 3px 15px 3px 15px;
+    vertical-align: middle;
+}
+
+.menu-gauche {
+  font-family: 'Bungee', cursive;
+}
+
+.menu-gauche > li:hover {
+  opacity : .8;
+}
+
+.menu-droite {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-droite > li:hover {
+  opacity : .7;
+}
+
+
+/* contenu */
+
+.titre-inline {
+  color: rgba(255, 255, 255, 0.86);
+  font-family: 'Bungee', cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 55px;
+  margin-top: 100px;
+}
+
+.titre-inline:hover {
+  color: rgba(244, 0, 8, 0.86)
+}
+
+.contenu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 40px;
+  color: rgba(255, 255, 255, 0.80);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  letter-spacing: 30;
+  line-height: 1.5;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+.Japan-koi{
+  margin-right: 80px;
+  margin-left: 100px;
+  height: 247px;
+}
+
+.Japan-koi:hover{
+  content: url('images/japan-koi2.png')
+}
+
+/* footer */
+
+footer {
+  left: 0;
+  right: 0;
+  background-color: rgba(149, 149, 149, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 5px;
+}
+
+footer a {
+  margin-right: 10px;
+  margin-left: 10px;
+  opacity: .6;
+}
+
+footer a:hover {
+  opacity: 1;
+}
